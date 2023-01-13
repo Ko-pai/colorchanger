@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+.navbr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    background-color: white;
+}
+.navbr ul{
+    display: flex;
+}
+.navbar h3{
+    color: rgb(10, 204, 204);
+    text-shadow: 0px 1px 2px rgb(0, 0, 0, 0.2);
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+.link{
+    margin-bottom: 5px;
+}
+.link li{
+    margin-left: 20px;
+    list-style: none;
+}
+.link li>a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+.link li>a:hover{
+    color: dodgerblue;
+}
+.main{
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bott{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.colorText{
+    width: 300px;
+    height: 85px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: "roboto";
+}
+.bott:hover{
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+.text{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
